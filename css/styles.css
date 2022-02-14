@@ -7,12 +7,21 @@
     --backgroud-light-colore: #F5F4FA;
     --logo-dark-colore: #000000;
     --portfolio-background-colore: #EEEEEE;}
-    
+html {box-sizing: border-box;}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
 body {font-family: 'Roboto', sans-serif;
     background-color: var(--background-colore);
     color: var(--primary-text-colore);
     letter-spacing: 0.03em;}
 header {background-color: var(--white-colore);}
+.container {margin-left: auto;
+    margin-right: auto;
+    width: 1230px;
+    padding: 15px;}
 .logo {color: var(--accent-colore);
     font-family: Raleway;
     font-weight: 700;
@@ -45,7 +54,8 @@ li {list-style: none;}
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;}
-.button.primary {color: var(--white-colore);
+.button.primary {padding: 10px 32px;
+    color: var(--white-colore);
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -55,6 +65,10 @@ li {list-style: none;}
     text-align: center;
     letter-spacing: 0.06em;
     background-color: var(--accent-colore);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    /* пофиксить границу кнопки */
+    border-color: transparent;
+    border-radius: 4px;
     cursor: pointer;}
 .features {background-color: var(--white-colore);}
 .features-list h3 {font-style: normal;
