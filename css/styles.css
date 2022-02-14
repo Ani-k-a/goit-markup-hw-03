@@ -1,0 +1,114 @@
+:root {
+    --primary-text-colore: #212121;
+    --background-colore: #E5E5E5;
+    --white-colore: #FFFFFF;
+    --accent-colore: #2196F3;
+    --light-text-colore: #757575;
+    --backgroud-light-colore: #F5F4FA;
+    --logo-dark-colore: #000000;
+    --portfolio-background-colore: #EEEEEE;}
+    
+body {font-family: 'Roboto', sans-serif;
+    background-color: var(--background-colore);
+    color: var(--primary-text-colore);
+    letter-spacing: 0.03em;}
+header {background-color: var(--white-colore);}
+.logo {color: var(--accent-colore);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;}
+.logo-dark {color: var(--logo-dark-colore);}
+li {list-style: none;}
+.site-nav a {
+    color: var(--primary-text-colore);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;}
+.site-nav a:hover , .site-nav a:focus {color: var(--accent-colore);}
+.site-nav .current {color: var(--accent-colore);}
+.contacts a {color: var(--light-text-colore);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;}
+.contacts a:hover, .contacts a:focus {color: var(--accent-colore);}
+.hero {background-color: var(--primary-text-colore);}
+.hero .slogan {color: var(--white-colore);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;}
+.button.primary {color: var(--white-colore);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: var(--accent-colore);
+    cursor: pointer;}
+.features {background-color: var(--white-colore);}
+.features-list h3 {font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;}
+.features-list p {color: var(--light-text-colore);
+    font-size: 14px;
+    line-height: 1.5;}
+.services {background-color:var(--white-colore);}
+.section {font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;}
+.team {background-color: var(--backgroud-light-colore);}
+.team li {background-color: var(--white-colore);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;}
+.team h3 {font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;}
+.team p {color: var(--light-text-colore);
+    line-height: 1.19;
+    text-align: center;}
+.our-portfolio {background-color: var(--white-colore);}
+.portfolio-menu button {font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    background-color: var(--backgroud-light-colore);
+    cursor: pointer;}
+.portfolio-menu button:hover, .portfolio-menu button:focus {color: var(--white-colore);
+background-color: var(--accent-colore)}
+.projects li {background-color: var(--white-colore); 
+    border: 1px solid var(--portfolio-background-colore);
+    box-sizing: border-box;}
+.projects h2 {font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;}
+.projects p {color: var(--light-text-colore);
+    line-height: 1.88;}
+.projects h2, .projects p {background-color: var(--white-colore);}
+footer {background-color: var(--primary-text-colore);}
+.logo-white {color: var(--white-colore);}
+.address a {color:var(--white-colore);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;}
+.phone a, .mail a {color: rgba(255, 255, 255, 0.6);}
+.address a:hover, .address a:focus {color: var(--accent-colore);}
