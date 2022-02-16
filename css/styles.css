@@ -65,7 +65,10 @@ header .container {display: flex;
     padding-bottom: 200px;
     min-height: 600px;
     text-align: center;}
-.hero .slogan {margin-top: 0;
+.hero .slogan {width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
     margin-bottom: 90px;
     text-align: center;
     color: var(--white-colore);
@@ -94,6 +97,19 @@ header .container {display: flex;
     background-color: var(--accent-colore);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);}
 .features {background-color: var(--white-colore);}
+.portfolio-title, .features-title {position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+
 .features.list {display: flex;
     padding-top: 94px;
     padding-bottom: 94px;
